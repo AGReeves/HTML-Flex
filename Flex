@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="FlexCSS.css" rel="stylesheet" type="text/css"></link><!--Css link -->
+	</head>
+	
+	<body>
+	
+	<u><b><center><h1>Sir Gar News</h1></center></b></u>
+		
+	<div class="containerMain"><!--Create a flex container-->
+		<div class="box1"> <!--Flex item -->
+			<h1>Box One</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+		
+		<div class="box2"> <!--Flex item -->
+			<h1>Box Two</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+		
+		<div class="box3"> <!--Flex item -->
+			<h1>Box Three</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+	</div>
+	
+	<br>
+	
+	<div class="middleContainer">
+		<div class="middleBox">
+			<center><h2>Middle Box</h2></center>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,</p>
+		</div>
+	</div>
+	
+	<br>
+	
+	<div class="containerSecond"><!--Create a flex container-->
+		<div class="box4"> <!--Flex item -->
+			<h1>Box Four</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+		
+		<div class="box5"> <!--Flex item -->
+			<h1>Box Five</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+		
+		<div class="box6"> <!--Flex item -->
+			<h1>Box Six</h1>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+			Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Donec quam felis,
+			</p>		
+		</div>
+	</div>
+	
+	
+	<br>
+	<!--Add Footer -->
+	<div id="Footer"><br>Copyright &#169; A.G Reeves
+
+	</div>
+	
+	</body>
+</html>
