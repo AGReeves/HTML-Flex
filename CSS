@@ -1,0 +1,85 @@
+body{background-color: #aaa;}
+
+.containerMain div{
+	border:1px #000 solid;
+	padding: 20px; /*padding inside of the boxs*/
+	background-color: #ddd;
+	/* margin:25px; used to set margin around the boxs*/
+}
+
+.containerMain{
+	display: flex; /*display items in flex*/
+	align-items: stretch; /*flex-start, flex-end, center. stretch by default*/
+	/*flex-direction: column; used tp set flex into column*/
+	justify-content: space-around;
+
+}
+
+.box1{
+	flex:2; /*used to set width of box*/
+	/*order: 1; used to set order of box*/
+}
+
+.box2{
+	flex:1;	
+}
+
+.box3{
+	flex:1;
+	
+}
+ /*Code for second row*/
+.containerSecond div{
+	border:1px #000 solid;
+	padding: 20px;
+	background-color: #ddd;
+	/* margin:25px; used to set margin around the boxs*/
+}
+
+.containerSecond{
+	display: flex; /*display items in flex*/
+	align-items: stretch; /*flex-start, flex-end, center. stretch by default*/
+	/*flex-direction: column; used tp set flex into column*/
+}
+
+.box4{
+	flex:1; /*used to set width of box*/
+	/*order: 1; used to set order of box*/
+}
+
+.box5{
+	flex:1;	
+}
+
+.box6{
+	flex:2;	
+}
+
+/*Code for middle Container*/
+.middleContainer div{
+	border:1px #000 solid;
+	padding: 5px;
+	background-color: #ccc;
+}
+
+.middleContainer{
+	display: flex; /*display items in flex*/
+	align-items: stretch; /*flex-start, flex-end, center. stretch by default*/
+	/*flex-direction: column; used tp set flex into column*/
+	/* margin:25px; used to set margin around the boxs*/
+}
+
+.middleBox{
+	flex:1;	 /*value not used unless more than 1 box is in the container*/ 
+}
+
+/*code for footer*/
+#Footer{
+position:relative;
+margin:auto;
+background-color: #302e2ea8;
+width:100%;
+height:50px;
+text-align:center;
+font-family:Tahoma;
+}
